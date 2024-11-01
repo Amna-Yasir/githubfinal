@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Minds - Design Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Creative Minds Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    /Users/amnayasir/Downloads/Mphill/Semester 1/Tools and techniques/githubfinal-main
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Creative Minds</h1>
+        <p>Your vision, our creation</p>
+        <button onclick="scrollToSection('services')">Explore Services</button>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Web Design</h3>
+                <p>We create visually stunning and user-friendly websites.</p>
+            </div>
+            <div class="service">
+                <h3>Branding</h3>
+                <p>Developing brands that stand out and resonate with audiences.</p>
+            </div>
+            <div class="service">
+                <h3>Marketing</h3>
+                <p>Implementing marketing strategies to grow your business.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">Project 1</div>
+            <div class="portfolio-item">Project 2</div>
+            <div class="portfolio-item">Project 3</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Creative Minds. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
