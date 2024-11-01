@@ -6,7 +6,7 @@ The Creative Minds Portfolio Website presents an elegant and user-friendly inter
 
 **Instructions to Run the Project**
 1.Clone the Repository:
-git clone https://github.com/YourUsername/creative-minds-portfolio.git
+git clone https://github.com/Amna-Yasir/githubfinal.git
 2.Navigate to the Project Directory:
 cd githubfinal
 3.Open the Project in VS Code:
